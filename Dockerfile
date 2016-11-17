@@ -1,8 +1,8 @@
 FROM java:openjdk-8u92-jre-alpine
 MAINTAINER Global Solutions co., ltd.
-LABEL semver="0.1.0"
+LABEL semver="0.2.0"
 
-ENV CEREBRO_VER=0.2.0
+ENV CEREBRO_VER=0.3.0
 
 WORKDIR cerebro
 RUN apk add --update --no-cache openssl tar bash && \
