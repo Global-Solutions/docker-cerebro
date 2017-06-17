@@ -1,8 +1,8 @@
-FROM java:openjdk-8u111-jre-alpine
+FROM openjdk:8u131-jre-alpine
 MAINTAINER Global Solutions co., ltd.
-LABEL semver="0.2.1"
+LABEL semver="0.3.0"
 
-ENV CEREBRO_VER=0.3.1
+ENV CEREBRO_VER=0.6.5
 
 WORKDIR cerebro
 RUN apk add --update --no-cache openssl tar bash && \
